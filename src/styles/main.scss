@@ -1,0 +1,45 @@
+// main.scss
+
+// 1. Abstracts
+@use "abstracts/variables";
+@use "abstracts/mixins";
+@use "abstracts/functions";
+
+// 2. Base
+@use "base/reset";
+@use "base/typography";
+@use "base/utilities";
+
+// 3. Layout
+@use "layout/LandingPage";
+@use "layout/Dashboard";
+
+// 4. components
+
+@use "components/searchButton";
+@use "components/buttons";
+@use "components/cards";
+@use "components/inputs";
+
+#root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+// // 4. Components
+// @use 'components/button';
+// @use 'components/card';
+// @use 'components/navbar';
+// @use 'components/filter';
+// @use 'components/modal';
+// @use 'components/bookmark';
+
+// // 5. Pages
+// @use 'pages/home';
+// @use 'pages/job-listing';
+// @use 'pages/job-details';
+// @use 'pages/admin';
+
+// // 6. Themes
+// @use 'themes/dark';

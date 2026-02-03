@@ -1,0 +1,36 @@
+@use "../abstracts/variables";
+
+//=====*LandingPageCard*=======
+
+.landing-page__cardsWrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin-top: 3em;
+  .landing-page__card {
+    display: grid;
+    padding: 1.5em;
+    border-radius: variables.$radius-lg;
+    box-shadow: variables.$shadow-lg;
+    background-color: white;
+    gap: 0.5em;
+    text-align: center;
+    grid-template-columns: subgrid;
+    transition: 150ms ease-in box-shadow;
+    cursor: pointer;
+    &:hover {
+      box-shadow: variables.$shadow-xl;
+    }
+    .landing-page__cardHeading {
+      background-image: linear-gradient(90deg, #5450fb, #7b3bfa);
+      color: transparent;
+      background-clip: text;
+      font-weight: 600;
+      font-size: variables.$font-size-3xl;
+    }
+    .landing-page__cardSubHeading {
+      color: variables.$color-gray-400;
+    }
+  }
+}

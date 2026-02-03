@@ -1,0 +1,6 @@
+@use "../../styles/abstracts/variables";
+
+.filter-option-aside {
+  background-color: variables.$background-color-seccondary;
+  width: 100%;
+}

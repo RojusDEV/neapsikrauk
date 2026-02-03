@@ -1,0 +1,31 @@
+@use "../abstracts/variables";
+
+.dashboard {
+  background-color: variables.$background-color-main;
+  .dashboard__nav {
+    border-bottom: 1px solid variables.$border-color-gray;
+    .wrapper {
+      padding: 0.75em;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      max-width: 1280px;
+      margin: 0 auto;
+      .nav-logo {
+        height: 25px;
+      }
+      .logo-title {
+        font-weight: 600;
+      }
+    }
+  }
+  .dashboard__main {
+    .dashboard__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 20% 80%;
+
+    }
+  }
+}

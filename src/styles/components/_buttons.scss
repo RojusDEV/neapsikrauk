@@ -1,0 +1,38 @@
+@use "../abstracts/variables";
+
+// component button
+
+.component-button {
+  font-weight: 600;
+  color: variables.$color-gray-100;
+  border-radius: variables.$radius-lg;
+  padding: 1em 1.3em;
+  box-shadow: variables.$shadow-md;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.component-btn-blue {
+  background: linear-gradient(90deg, #155cfb, #1348e6);
+}
+
+.component-btn-white {
+  background-color: white;
+  color: variables.$color-gray-500;
+}
+
+
+
+//Content button
+.content-button {
+  background: linear-gradient(90deg, #e7ecff, #f3e4ff);
+  padding: 1em 1.5em;
+  border-radius: variables.$radius-full;
+  cursor: pointer;
+  border: 2px solid #d4e4ff;
+  span {
+    background-image: linear-gradient(90deg, #1b46e5, #9a38e3);
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+  }
+}

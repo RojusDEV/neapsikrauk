@@ -1,0 +1,173 @@
+// ==========================
+// Variables
+// ==========================
+
+// Colors
+$primary-color: #3b82f6;
+$secondary-color: #10b981;
+$danger-color: #ef4444;
+$text-color: #1f2937;
+$background-color: #f9fafb;
+$border-color: #e5e7eb;
+$color-gray-100: #f7f7f7;
+$color-gray-200: #eeeeee;
+$color-gray-300: #acb2be;
+$color-gray-400: #6b6f75;
+$color-gray-500: #575b60;
+$color-navyBlue: #1C398E;
+//Backgrounds
+
+
+$background-color-main: #F9FAFB;
+$background-color-seccondary: #ffffff;
+$bg-color-lightblue: #EFF6FF;
+
+
+
+// Typography
+$font-primary:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
+$font-secondary: "Roboto", sans-serif;
+
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-2xl: 1.5rem; // 24px
+$font-size-3xl: 1.875rem; // 30px
+$font-size-landingHeading: 6rem; // 50px
+
+// Spacing
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem; // 8px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-2xl: 3rem; // 48px
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// Border radius
+$radius-sm: 0.25rem; // 4px
+$radius-md: 0.5rem; // 8px
+$radius-lg: 0.75rem; // 12px
+$radius-full: 9999px;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+$shadow-xl: 0 20px 15px -3px rgba(0, 0, 0, 0.1);
+// Transitions
+$transition-fast: 150ms ease-in-out;
+$transition-base: 300ms ease-in-out;
+$transition-slow: 500ms ease-in-out;
+
+
+// borders
+
+$border-color-gray: #E5E7EB;
+// ==========================
+// CSS Variables
+// ==========================
+
+:root {
+  --primary: #{$primary-color};
+  --secondary: #{$secondary-color};
+  --destructive: #{$danger-color};
+  --foreground: #{$text-color};
+  --background: #{$background-color};
+  --border: #{$border-color};
+
+  --font-size-xs: #{$font-size-xs};
+  --font-size-sm: #{$font-size-sm};
+  --font-size-base: #{$font-size-base};
+  --font-size-lg: #{$font-size-lg};
+  --font-size-xl: #{$font-size-xl};
+  --font-size-2xl: #{$font-size-2xl};
+  --font-size-3xl: #{$font-size-3xl};
+  --font-size-landingHeading: #{$font-size-landingHeading};
+
+  --radius-sm: #{$radius-sm};
+  --radius-md: #{$radius-md};
+  --radius-lg: #{$radius-lg};
+  --radius-full: #{$radius-full};
+
+  --shadow-sm: #{$shadow-sm};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+
+  --transition-fast: #{$transition-fast};
+  --transition-base: #{$transition-base};
+  --transition-slow: #{$transition-slow};
+}
+
+// Dark theme
+.dark {
+  --primary: darken(#{$primary-color}, 20%);
+  --secondary: darken(#{$secondary-color}, 20%);
+  --destructive: darken(#{$danger-color}, 15%);
+  --foreground: #f3f4f6;
+  --background: #111827;
+  --border: #374151;
+}
+
+// ==========================
+// Global Styles
+// ==========================
+
+body {
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  color: var(--foreground);
+  background-color: var(--background);
+  transition:
+    background-color $transition-base,
+    color $transition-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 $spacing-md 0;
+}
+
+// ==========================
+// Utility Classes
+// ==========================
+
+.text-center {
+  text-align: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.p-sm {
+  padding: $spacing-sm;
+}
+
+.p-md {
+  padding: $spacing-md;
+}
+
+.rounded {
+  border-radius: $radius-md;
+}

@@ -1,0 +1,16 @@
+//Search input conponent
+@use "../abstracts/variables";
+.search-field-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  max-width: 545px;
+  border: 2px solid variables.$border-color-gray;
+  border-radius: variables.$radius-md;
+  padding: 0.5em;
+  margin-left: 1em;
+  width: 100%;
+  .search-field-nav {
+    width: 100%;
+  }
+}
