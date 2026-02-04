@@ -1,4 +1,4 @@
-import JobTypeWrapper from "../Filters/JobType/JobTypeWrapper";
+import FiltersWrapper from "../Filters/FiltersWrapper/FiltersWrapper";
 import SalaryFilter from "../Filters/SalaryFilter";
 import "./FilterAside.scss";
 
@@ -7,7 +7,7 @@ const FilterAside = () => {
     <aside className="filter-option-aside">
       <span>Filtrai</span>
       <SalaryFilter />
-      <JobTypeWrapper />
+      <FiltersWrapper />
     </aside>
   );
 };

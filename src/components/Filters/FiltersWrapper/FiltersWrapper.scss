@@ -1,0 +1,32 @@
+@use "@/styles/abstracts/variables";
+
+.filter_wrapper {
+  margin-top: 3em;
+  .filter_options {
+    // .filter_type_name {
+    //   color: variables.$text-color;
+    //   font-size: variables.$font-size-base;
+    //   font-weight: bold;
+    // }
+    .filter_fieldset {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+      gap: 0.5em;
+      .filter_type_name {
+        color: variables.$text-color;
+        font-size: variables.$font-size-base;
+        font-weight: bold;
+        margin: 1em 0;
+      }
+      .job-type-option {
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+      }
+      .job-type-title {
+        color: variables.$color-gray-400;
+      }
+    }
+  }
+}

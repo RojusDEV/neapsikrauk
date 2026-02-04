@@ -1,18 +1,19 @@
 interface JobTypeProps {
   job: { id: string; label: string };
-  onSelect: (job: { id: string; label: string }) => void;
+  filterType: string;
 }
 
-const JobType = ({ job, onSelect }: JobTypeProps) => {
+const JobType = ({ job }: JobTypeProps) => {
   return (
     <div className="job-type-option">
       <input
         type="checkbox"
         id={job.id}
-        onChange={() => onSelect(job)}
         style={{ display: "inline-block", width: "20px", height: "20px" }}
       />
-      <label htmlFor={job.id} className="job-type-title">{job.label}</label>
+      <label htmlFor={job.id} className="job-type-title">
+        {job.label}
+      </label>
     </div>
   );
 };
