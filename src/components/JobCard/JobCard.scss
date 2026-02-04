@@ -1,0 +1,72 @@
+@use "@/styles/abstracts/variables";
+
+.JobCard {
+  background-color: white;
+  border-radius: variables.$radius-md;
+  padding: 1.5em 1.3em;
+  display: grid;
+  gap: 1em;
+  cursor: pointer;
+  transition: 200ms ease box-shadow;
+  border: 2px solid variables.$border-color;
+  box-shadow: variables.$shadow-md;
+  .important-badge-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    width: fit-content;
+    background-color: variables.$badge-bg-color-important;
+    border-radius: variables.$radius-full;
+    .important-badge {
+      color: variables.$badge-text-color-important;
+      font-weight: bold;
+    }
+  }
+  &:hover {
+    box-shadow: variables.$shadow-lg;
+  }
+  .JobCard__wrapper {
+    display: flex;
+    flex-direction: column;
+    .job_title {
+      font-size: variables.$font-size-xl;
+      font-weight: bold;
+    }
+    .job_company {
+      font-size: variables.$font-size-lg;
+      color: variables.$color-gray-500;
+      margin-top: 1em;
+    }
+    .job_details {
+      display: flex;
+      gap: 1em;
+      align-items: center;
+      margin: 1em 0;
+      .job_detail {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+      }
+    }
+    .job_category {
+      span {
+        display: inline-block;
+        background-color: variables.$badge-bg-color;
+        color: variables.$badge-text-color;
+        padding: 0.5em 1em;
+        border-radius: variables.$radius-full;
+      }
+    }
+    .job_description {
+      margin-top: 1.5em;
+      font-size: variables.$font-size-base;
+      color: variables.$color-gray-500;
+    }
+    .upload_date {
+      margin-top: 1em;
+      font-size: variables.$font-size-sm;
+      color: variables.$color-gray-500;
+    }
+  }
+}
