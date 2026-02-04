@@ -14,15 +14,17 @@ $color-gray-200: #eeeeee;
 $color-gray-300: #acb2be;
 $color-gray-400: #6b6f75;
 $color-gray-500: #575b60;
-$color-navyBlue: #1C398E;
+$color-navyBlue: #1c398e;
 //Backgrounds
 
+$badge-bg-color: #eff6ff;
+$badge-text-color: #1b47da;
+$badge-bg-color-important: #ffe2e2;
+$badge-text-color-important: #d63d3d;
 
-$background-color-main: #F9FAFB;
+$background-color-main: #f9fafb;
 $background-color-seccondary: #ffffff;
-$bg-color-lightblue: #EFF6FF;
-
-
+$bg-color-lightblue: #eff6ff;
 
 // Typography
 $font-primary:
@@ -71,10 +73,9 @@ $transition-fast: 150ms ease-in-out;
 $transition-base: 300ms ease-in-out;
 $transition-slow: 500ms ease-in-out;
 
-
 // borders
 
-$border-color-gray: #E5E7EB;
+$border-color-gray: #e5e7eb;
 // ==========================
 // CSS Variables
 // ==========================
