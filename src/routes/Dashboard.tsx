@@ -1,7 +1,7 @@
 import logo from "@/assets/logo.svg";
 import FilterAside from "@/components/layout/FilterAside";
+import JobCardLayout from "@/components/layout/JobCardLayout/JobCardLayout";
 import SearchFieldNav from "@/components/SearchField/SearchField";
-import { CiBookmark } from "react-icons/ci";
 const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -17,17 +17,7 @@ const Dashboard = () => {
       <main className="dashboard__main">
         <div className="dashboard__wrapper">
           <FilterAside />
-          <section className="">
-            <div className="">
-              <div className="top">
-                <span>5 darbo pasiūlymai</span>
-                <div className="bookmark">
-                  <CiBookmark />
-                  <span>Išsaugoti (0)</span>
-                </div>
-              </div>
-            </div>
-          </section>
+          <JobCardLayout />
         </div>
       </main>
     </div>
