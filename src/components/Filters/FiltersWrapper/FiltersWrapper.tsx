@@ -1,6 +1,7 @@
 import React from "react";
-import JobType from "../JobType/JobType";
-import './FiltersWrapper.scss';
+import "./FiltersWrapper.scss";
+import FilterOption from "../FilterOption/FilterOption";
+
 const FiltersWrapper = () => {
   const jobTypes = [
     {
@@ -44,7 +45,7 @@ const FiltersWrapper = () => {
             <React.Fragment key={el.filterType}>
               <legend className="filter_type_name">{el.filterType}</legend>
               {el.options.map((option) => (
-                <JobType
+                <FilterOption
                   key={option.id}
                   job={option}
                   filterType={el.filterType}

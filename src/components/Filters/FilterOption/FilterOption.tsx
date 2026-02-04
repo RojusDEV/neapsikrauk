@@ -1,9 +1,11 @@
+import "./FilterOption.scss";
+
 interface JobTypeProps {
   job: { id: string; label: string };
   filterType: string;
 }
 
-const JobType = ({ job }: JobTypeProps) => {
+const FilterOption = ({ job }: JobTypeProps) => {
   return (
     <div className="job-type-option">
       <input
@@ -18,4 +20,4 @@ const JobType = ({ job }: JobTypeProps) => {
   );
 };
 
-export default JobType;
+export default FilterOption;

@@ -1,0 +1,9 @@
+@use "@/styles/abstracts/variables";
+.job-type-option {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  .job-type-title {
+    color: variables.$color-gray-400;
+  }
+}
