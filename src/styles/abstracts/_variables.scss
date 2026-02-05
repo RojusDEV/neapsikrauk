@@ -52,10 +52,12 @@ $spacing-xl: 2rem; // 32px
 $spacing-2xl: 3rem; // 48px
 
 // Breakpoints
-$breakpoint-sm: 640px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 1024px;
-$breakpoint-xl: 1280px;
+$breakpoints: (
+  "sm": 640px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1280px
+);  
 
 // Border radius
 $radius-sm: 0.25rem; // 4px
