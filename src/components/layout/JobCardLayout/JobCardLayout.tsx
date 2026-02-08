@@ -16,7 +16,7 @@ const JobCardLayout = () => {
     description:
       "We are looking for a skilled frontend developer to join our team.",
     uploadDate: new Date(),
-    isImportant: true
+    isImportant: false
   };
   return (
     <section className="job_card_layout">

@@ -1,10 +1,10 @@
-import { Link, Outlet } from "react-router";
+import { Outlet } from "react-router";
 import "@/styles/main.scss";
 // import { Map, MapControls } from "@/components/ui/map";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Outlet />
     </div>
   );

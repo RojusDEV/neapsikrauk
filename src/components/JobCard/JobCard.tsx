@@ -1,4 +1,4 @@
-import { CiLocationOn, CiMoneyBill } from "react-icons/ci";
+import { CiBookmark, CiLocationOn, CiMoneyBill } from "react-icons/ci";
 import "./JobCard.scss";
 import { BsSuitcaseLg } from "react-icons/bs";
 import formatDate from "@/hooks/FormatDate";
@@ -31,7 +31,12 @@ const JobCard = (props: JobCardProps) => {
         </div>
       )}
       <div className="JobCard__wrapper">
-        <span className="job_title">{props.title}</span>
+        <div className="JobCard__header">
+          <span className="job_title">{props.title}</span>
+          <button className="bookmark-btn" aria-label="bookmark button">
+            <CiBookmark size={20} strokeWidth={1} />
+          </button>
+        </div>
         <span className="job_company">{props.company}</span>
         <ul className="job_details">
           {location && (

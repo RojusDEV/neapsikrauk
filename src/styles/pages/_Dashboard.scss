@@ -1,7 +1,10 @@
 @use "../abstracts/variables";
+@use "../abstracts/mixins";
 
 .dashboard {
   background-color: variables.$background-color-main;
+  overflow-x: hidden;
+  position: relative;
   .dashboard__nav {
     border-bottom: 1px solid variables.$border-color-gray;
     .wrapper {
@@ -11,11 +14,25 @@
       gap: 0.5em;
       max-width: 1280px;
       margin: 0 auto;
+      @include mixins.md {
+        padding: 0.75em 1.5em;
+      }
+      .filter-btn-mobile {
+        display: none;
+        cursor: pointer;
+        @include mixins.lg {
+          display: block;
+        }
+      }
       .nav-logo {
         height: 25px;
       }
       .logo-title {
         font-weight: 600;
+        display: block;
+        @include mixins.sm {
+          display: none;
+        }
       }
     }
   }
@@ -26,7 +43,10 @@
       display: grid;
       grid-template-columns: 22% 78%;
       gap: 1.5em;
-
+      @include mixins.lg {
+        grid-template-columns: 1fr;
+        padding: 0 1.5em 2em 1.5em;
+      }
     }
   }
 }

@@ -1,13 +1,10 @@
 import Button from "@/components/Button";
-import JobCategory from "@/components/JobCategory";
-import {
-  LandingPageCardWrapper,
-  LandingPageCard,
-  CardHeading,
-  SubHeading,
-} from "@/components/LandingPageCard/LandingPageCard";
+import FeaturedCards, {
+  featureCards,
+} from "@/components/FeaturedCards/FeaturedCards";
+import { LandingPageCardWrapper } from "@/components/LandingPageCard/LandingPageCard";
+import PopularCategories from "@/components/PopularCategories/PopularCategories";
 import { CiSearch } from "react-icons/ci";
-
 const Landingpage = () => {
   return (
     <div className="landing-page">
@@ -53,45 +50,13 @@ const Landingpage = () => {
               />
             </div>
             <hr />
-            <div className="categories">
-              <span className="categories-title">
-                Populiariausios kategorijos:
-              </span>
-              <ul className="popular-categories-list">
-                <li className="popular-category-el">
-                  <JobCategory title="IT" />
-                </li>
-                <li className="popular-category-el">
-                  <JobCategory title="HoReCa" />
-                </li>
-                <li className="popular-category-el">
-                  <JobCategory title="Marketing" />
-                </li>
-                <li className="popular-category-el">
-                  <JobCategory title="Finansai" />
-                </li>
-                <li className="popular-category-el">
-                  <JobCategory title="Nuotolinis" />
-                </li>
-              </ul>
-            </div>
+            <PopularCategories />
           </div>
           <div className="content-bottom">
             <LandingPageCardWrapper>
-              <LandingPageCard>
-                <CardHeading>500+</CardHeading>
-                <SubHeading>Aktyvių skelbimų</SubHeading>
-              </LandingPageCard>
-              {/*  */}
-              <LandingPageCard>
-                <CardHeading>50+</CardHeading>
-                <SubHeading>Darbdavių</SubHeading>
-              </LandingPageCard>
-              {/*  */}
-              <LandingPageCard>
-                <CardHeading>24/7</CardHeading>
-                <SubHeading>Atnaujinama</SubHeading>
-              </LandingPageCard>
+              {featureCards.map((card, index) => (
+                <FeaturedCards key={index} {...card} />
+              ))}
             </LandingPageCardWrapper>
             <button
               type="button"

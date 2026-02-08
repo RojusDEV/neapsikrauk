@@ -29,6 +29,19 @@
   .JobCard__wrapper {
     display: flex;
     flex-direction: column;
+    .JobCard__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .bookmark-btn {
+        cursor: pointer;
+        padding: 0.5em;
+        border-radius: variables.$radius-full;
+        &:hover {
+          background-color: variables.$background-color-hover;
+        }
+      }
+    }
     .job_title {
       font-size: variables.$font-size-xl;
       font-weight: bold;
@@ -43,9 +56,11 @@
       gap: 1em;
       align-items: center;
       margin: 1em 0;
+      flex-wrap: wrap;
       .job_detail {
         display: flex;
         align-items: center;
+        white-space: nowrap;
         gap: 0.5em;
       }
     }

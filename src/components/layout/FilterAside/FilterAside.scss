@@ -1,0 +1,50 @@
+@use "@/styles/abstracts/variables";
+@use "@/styles/abstracts/mixins";
+
+.filter-option-aside {
+  background-color: variables.$background-color-seccondary;
+  padding: 1.5em 1.3em;
+  border: 1px solid variables.$border-color-gray;
+  border-radius: variables.$radius-md;
+  width: 100%;
+  min-height: 100vh;
+  .aside_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .aside_mobile_close_btn {
+      padding: .5em;
+      border-radius: variables.$radius-md;
+      cursor: pointer;
+      transition: 100ms ease-in-out background-color;
+      &:hover {
+        background-color: variables.$background-color-hover;
+      }
+    }
+  }
+  .aside_title {
+    font-size: variables.$font-size-xl;
+    font-weight: 600;
+    color: variables.$text-color;
+  }
+}
+
+@include mixins.lg {
+  .filter-option-aside--closed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .filter-option-aside--open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+  }
+}

@@ -1,5 +1,6 @@
 //Search input conponent
 @use "../abstracts/variables";
+@use "../abstracts/mixins";
 .search-field-wrapper {
   display: flex;
   align-items: center;
@@ -12,5 +13,10 @@
   width: 100%;
   .search-field-nav {
     width: 100%;
+  }
+
+  @include mixins.lg {
+    width: 100%;
+    max-width: 100%;
   }
 }

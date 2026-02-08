@@ -9,16 +9,31 @@
   gap: 1em;
   margin-top: 3em;
   .landing-page__card {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
     padding: 1.5em;
+
     border-radius: variables.$radius-lg;
     box-shadow: variables.$shadow-lg;
+
     background-color: white;
     gap: 0.5em;
     text-align: center;
     grid-template-columns: subgrid;
     transition: 150ms ease-in box-shadow;
     cursor: pointer;
+
+    @each $key, $value in variables.$features-btn {
+      .features-btn--#{$key} {
+        padding: 1em;
+        background-color: #{$value};
+        border-radius: variables.$radius-lg;
+      }
+    }
+
     &:hover {
       box-shadow: variables.$shadow-xl;
     }
@@ -27,7 +42,7 @@
       color: transparent;
       background-clip: text;
       font-weight: 600;
-      font-size: variables.$font-size-3xl;
+      font-size: variables.$font-size-base;
     }
     .landing-page__cardSubHeading {
       color: variables.$color-gray-400;
