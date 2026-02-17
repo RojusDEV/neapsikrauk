@@ -1,13 +1,16 @@
-import Button from "@/components/Button";
+import LandingPageButton from "@/components/Button";
 import FeaturedCards, {
   featureCards,
 } from "@/components/FeaturedCards/FeaturedCards";
+import Header from "@/components/Header/Header";
 import { LandingPageCardWrapper } from "@/components/LandingPageCard/LandingPageCard";
 import PopularCategories from "@/components/PopularCategories/PopularCategories";
 import { CiSearch } from "react-icons/ci";
+
 const Landingpage = () => {
   return (
     <div className="landing-page">
+      <Header />
       <div className="landing-page__wrapper">
         <div className="landing-page__content">
           <div className="content-top">
@@ -34,14 +37,14 @@ const Landingpage = () => {
               </div>
             </form>
             <div className="buttons">
-              <Button
+              <LandingPageButton
                 title="Ieškoti darbo"
                 buttonType="button"
                 label="ieskoti darbo mygtukas"
                 colorPallete="blue"
                 className="animation-pop-out"
               />
-              <Button
+              <LandingPageButton
                 title="Kaip tai veikia?"
                 buttonType="button"
                 label=""

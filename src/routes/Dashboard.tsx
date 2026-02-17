@@ -4,6 +4,7 @@ import JobCardLayout from "@/components/layout/JobCardLayout/JobCardLayout";
 import SearchFieldNav from "@/components/SearchField/SearchField";
 import { useState } from "react";
 import { CiFilter } from "react-icons/ci";
+import { NavLink } from "react-router";
 
 const Dashboard = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -12,7 +13,9 @@ const Dashboard = () => {
       <nav className="dashboard__nav">
         <div className="wrapper">
           <img src={logo} alt="logo" aria-label="logo" className="nav-logo" />
-          <span className="logo-title">neapsikrauk</span>
+          <NavLink to="/" className="logo-title" >
+            neapsikrauk
+          </NavLink>
           <SearchFieldNav
             props={{ className: "", placeholder: "Ieškoti darbo..." }}
           />
