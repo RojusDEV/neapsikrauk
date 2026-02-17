@@ -24,6 +24,9 @@
 
 @use 'pages/Dashboard';
 @use 'pages/LandingPage';
+@use 'pages/SignInPage';
+@use 'pages/SignUpPage';
+
 
 #root {
   font-family: "Inter", sans-serif;

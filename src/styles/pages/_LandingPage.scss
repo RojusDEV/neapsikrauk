@@ -1,5 +1,6 @@
 @use "../abstracts/variables";
 @use "@/styles/abstracts/mixins";
+@use "sass:map";
 
 @keyframes animatemovement {
   0% {
@@ -37,6 +38,7 @@
 
 .landing-page {
   background-color: #f6faff;
+
 
   &__wrapper {
     display: flex;
@@ -82,6 +84,7 @@
     justify-content: center;
     .content-top {
       text-align: center;
+
       .content-header {
         color: #101828;
         font-size: clamp(2.5rem, 2.0296rem + 2.1505vw, 3.75rem);

@@ -1,0 +1,262 @@
+@use "@/styles/abstracts/variables";
+
+@keyframes animatemovement {
+  0% {
+    transform: translate(-18vw, -10vh) scale(1);
+  }
+  25% {
+    transform: translate(14vw, -4vh) scale(1.06);
+  }
+  50% {
+    transform: translate(18vw, 10vh) scale(0.98);
+  }
+  75% {
+    transform: translate(-12vw, 6vh) scale(1.04);
+  }
+  100% {
+    transform: translate(-18vw, -10vh) scale(1);
+  }
+}
+
+@keyframes animatemovement2 {
+  0% {
+    transform: translate(18vw, 10vh) scale(1);
+  }
+  25% {
+    transform: translate(-14vw, 6vh) scale(1.08);
+  }
+  50% {
+    transform: translate(-18vw, -10vh) scale(0.98);
+  }
+  75% {
+    transform: translate(12vw, -6vh) scale(1.05);
+  }
+  100% {
+    transform: translate(18vw, 10vh) scale(1);
+  }
+}
+
+.Signin-page {
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  &::after {
+    content: "";
+    z-index: 0;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    height: 420px;
+    width: 420px;
+    filter: blur(80px);
+    -webkit-filter: blur(100px);
+    position: absolute;
+    bottom: -40px;
+    left: 40px;
+    animation: animatemovement 15s ease-in-out 1s infinite alternate;
+    border-radius: 100%;
+    pointer-events: none;
+  }
+  &::before {
+    content: "";
+    z-index: 0;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    height: 480px;
+    width: 480px;
+    filter: blur(85px);
+    -webkit-filter: blur(85px);
+    position: absolute;
+    top: -40px;
+    right: 40px;
+    animation: animatemovement2 15s ease-in-out 2s infinite alternate;
+    border-radius: 100%;
+    pointer-events: none;
+  }
+  .Signin-page-wrapper {
+    width: min(1280px, 100% - 4em);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-content: space-between;
+    padding-top: 4em;
+    margin: 0 auto;
+
+    .Signin-page-wrapper-top {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      width: 100%;
+      row-gap: 2em;
+      .Signin-page-heading {
+        font-size: clamp(1.875rem, 4vw, 2.5rem);
+        margin-bottom: 0.5em;
+        // color: colors.$text-primary-dark;
+        font-weight: 300;
+      }
+      .side-line {
+        display: block;
+        position: absolute;
+        left: 0;
+        height: 1px;
+        margin: 3em 0;
+        width: 4.375em;
+        transform: translateY(1.25em);
+        border-top: 3px solid #000000;
+      }
+      .Signin-page-form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .Signin-page-form {
+        display: grid;
+        row-gap: 0.8125em;
+        & > input {
+          width: 100%;
+          border: 2px solid variables.$border-color-gray;
+          border-radius: 0.25em;
+          padding: 1em;
+          background-color: white;
+          &::placeholder {
+            font-weight: 400;
+            //color: variables.$border-color-gray;
+            text-transform: uppercase;
+            font-size: clamp(0.625rem, 2vw, 0.8rem);
+          }
+        }
+        .SigninBtn {
+          // background-color: colors.$primary-btn-dark-background-color;
+          margin-top: 2.18em;
+          width: 100%;
+          font-size: clamp(0.625rem, 2vw, 0.8rem);
+        }
+      }
+      .Signin-page-paragraph {
+        font-size: 0.75em;
+        max-width: 11.25em;
+        margin: 4.375em 0 5.625em 0;
+      }
+
+      .Signin-message {
+        font-size: 0.75rem;
+        text-align: center;
+        // color: colors.$text-clr-dark-grey;
+        font-weight: 400;
+        #linkType-signup {
+          // color: colors.$text-primary-dark;
+          font-weight: 500;
+        }
+      }
+    }
+    .testimonial {
+      display: none;
+      text-align: end;
+      .testimonial-primary {
+        font-weight: 300;
+        font-size: 2.625rem;
+      }
+      .testimonial-secondary {
+        font-size: 1.375rem;
+        // color: colors.$text-testimonial-light-grey;
+        font-weight: 300;
+      }
+    }
+    //FOOTER
+    .Signin-page-footer {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-top: 2.5em;
+      .Signin-page-socials {
+        display: none;
+      }
+      .Signin-page-footer-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        .Signin-page-footer-element {
+          & > span {
+            font-size: 0.75rem;
+            // color: colors.$text-clr-light-grey;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  .main-header {
+    .main-header-right-side {
+      //Remove Signin and signup buttons
+      .signin-btn,
+      .Signin-btn {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .Signin-page {
+    display: flex;
+    flex-direction: column;
+    .main-header {
+      .main-header-wrapper {
+        .header-widget-hamburger-menu {
+          display: none;
+        }
+      }
+    }
+    .Signin-page-wrapper {
+      flex-grow: 1;
+      justify-content: space-between;
+      .Signin-page-wrapper-top {
+        padding-left: 6.25em;
+
+        .side-line {
+          display: none;
+        }
+        .Signin-page-paragraph {
+          display: none;
+        }
+        .Signin-page-form-wrapper {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: space-between;
+          .Signin-page-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 26.56em;
+            width: 100%;
+          }
+        }
+        .Signin-message {
+          text-align: start;
+        }
+      }
+
+      .testimonial {
+        display: block;
+      }
+      //===Signin page form====
+      .Signin-page-form {
+        .SigninBtn {
+          width: 55%;
+        }
+      }
+      //=====Footer=====
+      .Signin-page-footer {
+        margin-bottom: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        .Signin-page-socials {
+          display: flex;
+          gap: 2em;
+        }
+      }
+    }
+  }
+}
