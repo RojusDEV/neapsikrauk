@@ -1,0 +1,21 @@
+@use "@/styles/abstracts/variables";
+
+.filter_wrapper {
+  margin-top: 3em;
+  padding: 0 .8em;
+  .filter_options {
+    .filter_fieldset {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+      gap: 0.5em;
+      .filter_type_name {
+        color: variables.$text-color;
+        font-size: variables.$font-size-base;
+        font-weight: bold;
+        margin: 1em 0;
+      }
+
+    }
+  }
+}

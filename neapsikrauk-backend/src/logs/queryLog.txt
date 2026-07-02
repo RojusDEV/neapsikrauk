@@ -1,0 +1,558 @@
+[2026-04-21T16:19:24.618Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=
+HasQuery: true
+Query: {"keyw":""}
+--------------------------------
+[2026-04-21T16:19:24.623Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-04-21T16:19:24.622Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-21T16:19:39.290Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=2705&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"2705","salaryMin":"0"}
+--------------------------------
+[2026-04-21T16:22:08.349Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-21T16:22:08.358Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-04-22T15:44:41.284Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:44:41.300Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:44:42.359Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:46:08.090Z] QUERY
+Method: GET
+Path: /api/v1/jobs/bc230ecd-5666-49f3-8f10-62c9f265aa0b
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:46:17.440Z] QUERY
+Method: GET
+Path: /api/v1/jobs/1
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:46:25.433Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:46:34.240Z] QUERY
+Method: GET
+Path: /api/v1/jobs/bc230ecd-5666-49f3-8f10-62c9f265aa0b
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:50:32.199Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:50:49.322Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:50:56.231Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:50:56.244Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:59:19.314Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:59:19.418Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:59:28.674Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T15:59:28.687Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T16:03:17.786Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T16:03:17.799Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:06:40.438Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:06:40.465Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:08:46.344Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:08:46.365Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:09:14.880Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:09:14.895Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:09:21.004Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:09:21.021Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:14:40.339Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:14:40.339Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:15:04.231Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:15:04.245Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:29:23.530Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:45:19.916Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:45:19.932Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:45:33.291Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:45:33.304Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:48:16.944Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:48:16.959Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:49:00.577Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:49:00.581Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:49:38.272Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:49:38.296Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:49:48.679Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:49:48.695Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:50:21.943Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=Marketing
+HasQuery: true
+Query: {"keyw":"Marketing"}
+--------------------------------
+[2026-04-22T17:50:30.446Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:50:32.406Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=Marketing
+HasQuery: true
+Query: {"keyw":"Marketing"}
+--------------------------------
+[2026-04-22T17:51:09.662Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:51:09.679Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:52:14.835Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:52:14.840Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:53:26.397Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:53:26.402Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:53:39.737Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:53:39.738Z] QUERY
+Method: GET
+Path: /api/v1/jobs?
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:55:03.983Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:55:03.986Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=marketing&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"marketing","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-04-22T17:55:51.123Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-04-22T17:56:33.554Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T17:56:33.558Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-04-22T17:56:41.679Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=3075&salaryMin=0
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"3075","salaryMin":"0"}
+--------------------------------
+[2026-04-22T17:56:44.201Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=1465&salaryMin=0
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"1465","salaryMin":"0"}
+--------------------------------
+[2026-04-22T17:56:46.709Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=2780&salaryMin=0
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"2780","salaryMin":"0"}
+--------------------------------
+[2026-04-22T17:56:52.424Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=1520
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"1520"}
+--------------------------------
+[2026-04-22T17:56:53.737Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=2410
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"2410"}
+--------------------------------
+[2026-04-22T17:56:56.538Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=2060
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"2060"}
+--------------------------------
+[2026-04-22T17:56:58.436Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=2725
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"2725"}
+--------------------------------
+[2026-04-22T17:57:01.549Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=2390
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"2390"}
+--------------------------------
+[2026-04-22T17:57:12.250Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=2890&salaryMin=2410
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"2890","salaryMin":"2410"}
+--------------------------------
+[2026-04-22T17:57:14.466Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=3005&salaryMin=2410
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"3005","salaryMin":"2410"}
+--------------------------------
+[2026-04-22T17:57:26.246Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=2890
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"2890"}
+--------------------------------
+[2026-04-22T17:57:31.390Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=3245
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"3245"}
+--------------------------------
+[2026-04-22T17:57:33.712Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=3410
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"3410"}
+--------------------------------
+[2026-04-22T17:57:35.431Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T17:58:29.794Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&location=vilnius&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"email","location":"vilnius","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T17:58:33.866Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&location=kaunas&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"email","location":"kaunas","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T18:07:12.211Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T18:09:51.824Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T18:09:51.825Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=email&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"email","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T18:12:55.574Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T18:12:55.590Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=developer&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"developer","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T18:16:04.362Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T18:16:04.366Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=developer&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"developer","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T18:16:10.943Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=manager&salaryMax=5000&salaryMin=3355
+HasQuery: true
+Query: {"keyw":"manager","salaryMax":"5000","salaryMin":"3355"}
+--------------------------------
+[2026-04-22T18:19:07.696Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=manager&salaryMax=5000&salaryMin=1965
+HasQuery: true
+Query: {"keyw":"manager","salaryMax":"5000","salaryMin":"1965"}
+--------------------------------
+[2026-04-22T18:19:16.034Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=manager&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"manager","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-04-22T19:17:45.053Z] QUERY
+Method: GET
+Path: /api/v1/jobs/6d2ff491-e5c5-469c-8a4a-36362096721e
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T19:17:47.037Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-04-22T20:35:19.512Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=manager&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"manager","salaryMax":"5000","salaryMin":"0"}
+--------------------------------

@@ -1,0 +1,39 @@
+@use "@/styles/abstracts/variables";
+
+.salary-filter {
+  margin-top: 2em;
+  .range_container {
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .salary__filter-topWrapper {
+    padding: 0 0.5em;
+    display: grid;
+    gap: 1em;
+    .filter__type {
+      font-weight: 600;
+      color: #201828;
+    }
+    .salary_range {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      gap: 1em;
+
+      .salary_range_block {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        border-radius: variables.$radius-md;
+        padding: 0.5em;
+        font-weight: 600;
+        background-color: variables.$bg-color-lightblue;
+        color: variables.$color-navyBlue;
+      }
+    }
+  }
+}

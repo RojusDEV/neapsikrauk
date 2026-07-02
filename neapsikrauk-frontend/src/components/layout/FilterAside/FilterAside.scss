@@ -1,0 +1,46 @@
+@use "@/styles/abstracts/variables";
+@use "@/styles/abstracts/mixins";
+
+.filter-option-aside {
+  .filter-option-aside__wrapper {
+    padding: 1.5em 1.3em;
+    background-color: variables.$background-color-seccondary;
+    border: 1px solid variables.$border-color-gray;
+    border-radius: variables.$radius-md;
+    position: sticky;
+    top: 1.5em;
+    align-self: flex-start;
+
+    .aside_header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .aside_title {
+      font-size: variables.$font-size-xl;
+      font-weight: 600;
+      color: variables.$text-color;
+    }
+  }
+}
+
+@include mixins.lg {
+  .filter-option-aside--closed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .filter-option-aside--open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+  }
+}

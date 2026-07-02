@@ -1,0 +1,32 @@
+@use "@/styles/abstracts/variables";
+
+.job-page-card-list__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.job-page-card-title-container {
+  .job-page-card-title__heading {
+    font-size: variables.$font-size-xl;
+    font-weight: 600;
+  }
+}
+
+.content-card__wrapper {
+  display: grid;
+  gap: 1em;
+}
+
+.job-page-card-list {
+  display: grid;
+  gap: 1em;
+  &__item {
+    list-style: inside;
+    &::marker {
+      color: variables.$primary-color;
+    }
+  }
+
+}

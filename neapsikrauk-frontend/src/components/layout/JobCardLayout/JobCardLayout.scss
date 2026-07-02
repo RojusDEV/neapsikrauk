@@ -1,0 +1,26 @@
+@use "@/styles/abstracts/variables";
+
+.job_card_layout {
+  &__wrapper {
+    .job_card_layout__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5em;
+      &-title {
+        font-size: variables.$font-size-xl;
+        color: variables.$text-color;
+        font-weight: 700;
+      }
+      &-bookmark {
+        display: flex;
+        align-items: center;
+        gap: 0.25em;
+      }
+    }
+   .job_card_layout__cards {
+      display: grid;  
+      gap: 1em;
+    }
+  }
+}

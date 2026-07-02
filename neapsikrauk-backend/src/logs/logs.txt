@@ -1,0 +1,666 @@
+[2026-02-16T18:56:44.827Z] ERROR
+    Message: column "param" does not exist
+    Stack: error: column "param" does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:24:20
+    --------------------------------
+    [2026-02-25T18:47:34.436Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:57:20
+    --------------------------------
+    [2026-02-25T18:47:44.713Z] ERROR
+    Message: value.map is not a function
+    Stack: TypeError: value.map is not a function
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:42:38
+    at Layer.handleRequest (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:295:15
+    at processParams (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:582:12)
+    at next (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:186:3)
+    --------------------------------
+    [2026-02-25T18:47:58.463Z] ERROR
+    Message: value.map is not a function
+    Stack: TypeError: value.map is not a function
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:42:38
+    at Layer.handleRequest (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:295:15
+    at processParams (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:582:12)
+    at next (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:186:3)
+    --------------------------------
+    [2026-02-25T18:48:09.235Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:57:20
+    --------------------------------
+    [2026-02-25T18:48:13.099Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:57:20
+    --------------------------------
+    [2026-02-25T18:51:22.590Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:56:20
+    --------------------------------
+    [2026-02-25T18:51:28.614Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:56:20
+    --------------------------------
+    [2026-02-25T18:51:48.812Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:57:20
+    --------------------------------
+    [2026-02-25T18:52:06.019Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-25T18:52:41.514Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-25T18:54:52.225Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-25T18:57:14.362Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-25T18:58:19.068Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-25T18:58:40.076Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:59:20
+    --------------------------------
+    [2026-02-25T18:58:46.677Z] ERROR
+    Message: syntax error at or near ")"
+    Stack: error: syntax error at or near ")"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:59:20
+    --------------------------------
+    [2026-02-25T19:03:22.121Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-25T19:03:33.374Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T12:47:23.878Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:27:55.193Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:28:16.238Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:30:44.383Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:30:56.333Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:43:22.897Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:43:34.766Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:43:42.973Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T13:43:56.189Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:28.384Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:31.662Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:33.455Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:33.669Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:34.753Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:34.858Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:05:37.722Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:08:35.126Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:08.817Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:11.640Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:14.791Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:27.250Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:28.482Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:29.066Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:09:32.726Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:07.041Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:09.270Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:09.520Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:09.936Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:10.368Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:10.876Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:11.105Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:11.418Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:11.707Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:12.640Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:13.070Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:13.219Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:16.770Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:19.308Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:19.695Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T15:10:20.486Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T16:39:47.171Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T16:39:48.405Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T17:22:12.695Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:58:20
+    --------------------------------
+    [2026-02-27T17:26:30.501Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:59:20
+    --------------------------------
+    [2026-02-27T17:26:32.641Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:59:20
+    --------------------------------
+    [2026-02-27T17:52:59.634Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:59:20
+    --------------------------------
+    [2026-02-27T18:00:21.737Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:60:20
+    --------------------------------
+    [2026-02-27T18:01:04.280Z] ERROR
+    Message: function lower(job_type_enum) does not exist
+    Stack: error: function lower(job_type_enum) does not exist
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:60:20
+    --------------------------------
+    [2026-02-27T18:05:33.167Z] ERROR
+    Message: bind message supplies 4 parameters, but prepared statement "" requires 2
+    Stack: error: bind message supplies 4 parameters, but prepared statement "" requires 2
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:06:10.406Z] ERROR
+    Message: operator does not exist: job_type_enum = integer
+    Stack: error: operator does not exist: job_type_enum = integer
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:06:27.350Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:06:45.169Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:06:45.646Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:06:49.295Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:11:36.485Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:11:38.405Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:11:38.818Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:11:40.617Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:65:20
+    --------------------------------
+    [2026-02-27T18:12:05.535Z] ERROR
+    Message: invalid input value for enum job_type_enum: "full_time"
+    Stack: error: invalid input value for enum job_type_enum: "full_time"
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:67:20
+    --------------------------------
+    [2026-02-27T18:13:42.909Z] ERROR
+    Message: syntax error at end of input
+    Stack: error: syntax error at end of input
+    at D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async D:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:70:20
+    --------------------------------
+    [2026-02-28T21:55:54.135Z] ERROR
+    Message: invalid input syntax for type uuid: "undefined"
+    Stack: error: invalid input syntax for type uuid: "undefined"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:80:20
+    --------------------------------
+    [2026-02-28T21:55:55.765Z] ERROR
+    Message: invalid input syntax for type uuid: "undefined"
+    Stack: error: invalid input syntax for type uuid: "undefined"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:80:20
+    --------------------------------
+    [2026-02-28T21:55:58.051Z] ERROR
+    Message: invalid input syntax for type uuid: "undefined"
+    Stack: error: invalid input syntax for type uuid: "undefined"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:80:20
+    --------------------------------
+    [2026-02-28T21:56:02.633Z] ERROR
+    Message: invalid input syntax for type uuid: "undefined"
+    Stack: error: invalid input syntax for type uuid: "undefined"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:80:20
+    --------------------------------
+    [2026-02-28T21:57:00.104Z] ERROR
+    Message: invalid input syntax for type uuid: "undefined"
+    Stack: error: invalid input syntax for type uuid: "undefined"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:80:20
+    --------------------------------
+    [2026-03-07T18:29:47.697Z] ERROR
+    Message: bind message supplies 2 parameters, but prepared statement "" requires 0
+    Stack: error: bind message supplies 2 parameters, but prepared statement "" requires 0
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:97:20
+    --------------------------------
+    [2026-03-07T18:34:43.835Z] ERROR
+    Message: syntax error at or near ":"
+    Stack: error: syntax error at or near ":"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:84:20
+    --------------------------------
+    [2026-03-07T18:34:59.419Z] ERROR
+    Message: syntax error at or near ":"
+    Stack: error: syntax error at or near ":"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:84:20
+    --------------------------------
+    [2026-03-07T18:35:20.089Z] ERROR
+    Message: syntax error at or near ":"
+    Stack: error: syntax error at or near ":"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:85:20
+    --------------------------------
+    [2026-03-07T18:35:42.371Z] ERROR
+    Message: column "backend" does not exist
+    Stack: error: column "backend" does not exist
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:85:20
+    --------------------------------
+    [2026-04-22T15:46:17.561Z] ERROR
+    Message: invalid input syntax for type uuid: "1"
+    Stack: error: invalid input syntax for type uuid: "1"
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:106:20
+    --------------------------------
+    [2026-04-22T17:50:21.945Z] ERROR
+    Message: conditions.j is not a function
+    Stack: TypeError: conditions.j is not a function
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:95:58
+    at Layer.handleRequest (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at next (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:117:3)
+    at handle (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:295:15
+    at processParams (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:582:12)
+    at next (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:291:5)
+    at router.handle (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:186:3)
+    --------------------------------
+    [2026-04-22T17:50:32.408Z] ERROR
+    Message: conditions.j is not a function
+    Stack: TypeError: conditions.j is not a function
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\src\routes\jobsRoutes.js:95:58
+    at Layer.handleRequest (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at next (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\route.js:117:3)
+    at handle (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\lib\layer.js:152:17)
+    at d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:295:15
+    at processParams (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:582:12)
+    at next (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:291:5)
+    at router.handle (d:\Code\Web development\Websites\NEW ERA\neapsikrauk\neapsikrauk-backend\node_modules\router\index.js:186:3)
+    --------------------------------
+    

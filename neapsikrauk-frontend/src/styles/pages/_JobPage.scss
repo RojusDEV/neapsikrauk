@@ -1,0 +1,23 @@
+@use "../abstracts/variables";
+@use "sass:map";
+.jobPage {
+  min-height: 100vh;
+  .nav {
+    border-bottom: 1px solid variables.$border-color-gray;
+    padding: .5em 1em;
+    &-wrapper {
+      max-width: map.get($map: variables.$breakpoints, $key: xl);
+      margin: 0 auto;
+      .back-button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+  &__content-wrapper {
+    padding: 0em 1em;
+    max-width: map.get($map: variables.$breakpoints, $key: xl);
+    margin: 1em auto 0 auto;
+  }
+}

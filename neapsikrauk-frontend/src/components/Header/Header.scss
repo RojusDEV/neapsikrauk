@@ -1,0 +1,32 @@
+@use "@/styles/abstracts/variables";
+@use "@/styles/abstracts/mixins";
+@use "sass:map";
+
+.landing-page__header {
+  max-width: map.get($map: variables.$breakpoints, $key: xl);
+  margin: 0 auto;
+  width: 100%;
+  z-index: 999;
+  .header-wrapper {
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-logo {
+      font-size: variables.$font-size-lg;
+      font-weight: 600;
+      color: variables.$text-color;
+      cursor: pointer;
+    }
+    .header-auth-buttons {
+      #signup-btn {
+        background: linear-gradient(90deg, #155cfb, #1348e6);
+        font-weight: bold;
+        padding: 0 1.3em;
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+    }
+  }
+}
