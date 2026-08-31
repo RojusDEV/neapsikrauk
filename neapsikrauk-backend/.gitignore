@@ -7,10 +7,10 @@ npm-shrinkwrap.json
 
 .env
 
+logs/
+Scraper/
 
 # Coveralls
 .nyc_output
 coverage
 
-# Benchmarking
-benchmarks/graphs
