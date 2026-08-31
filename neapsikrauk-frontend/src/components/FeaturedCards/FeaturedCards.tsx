@@ -25,14 +25,14 @@ export const featureCards: FeatureCard[] = [
   {
     color: "red",
     icon: <LuTriangleAlert color="#ffffff" size={24} />,
-    heading: "Red Flag įspėjimai",
-    subHeading: "Įspėjame apie įtartinus skelbimus",
+    heading: "Raudonos vėliavos",
+    subHeading: "Informuojame apie įtartinus arba nepatikimus skelbimus",
   },
   {
     color: "green",
     icon: <FaBus color="#ffffff" size={24} />,
-    heading: "Susisiekimas",
-    subHeading: "Autobusų maršrutai ir privažiavimas",
+    heading: "Transportas",
+    subHeading: "Autobusų maršrutai ir patogus priėjimas",
   },
 ];
 
@@ -40,10 +40,10 @@ const FeaturedCards = ({
   color,
   icon,
   heading,
-  subHeading
+  subHeading,
 }: FeatureCard) => {
   return (
-    <LandingPageCard>
+    <LandingPageCard color={color}>
       <FeaturesBtn color={color}>{icon}</FeaturesBtn>
       <CardHeading>{heading}</CardHeading>
       <SubHeading>{subHeading}</SubHeading>

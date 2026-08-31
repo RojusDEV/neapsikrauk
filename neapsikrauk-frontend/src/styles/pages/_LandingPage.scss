@@ -37,8 +37,12 @@
 }
 
 .landing-page {
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
   background-color: #f6faff;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   &__wrapper {
     display: flex;
@@ -82,6 +86,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding-bottom: 1rem;
     .content-top {
       text-align: center;
 
@@ -103,6 +108,10 @@
       margin-top: 2.375em;
       border-radius: variables.$radius-lg;
       box-shadow: variables.$shadow-lg;
+      @media (max-width: 768px) {
+        padding: 1.25em;
+        margin-top: 1.5em;
+      }
       .search-form {
         &__wrapper {
           display: flex;
@@ -132,6 +141,13 @@
         align-items: center;
         justify-content: center;
         gap: 1em;
+        @media (max-width: 768px) {
+          flex-direction: column;
+          width: 100%;
+          button {
+            width: 100%;
+          }
+        }
         @include mixins.md {
           flex-direction: column;
           button {
@@ -201,9 +217,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 3em;
-      margin-bottom: 3em;
-      margin-top: 2em;
+      gap: 1em;
+      margin-bottom: 1em;
+      margin-top: 1em;
     }
   }
 }

@@ -556,3 +556,147 @@ Path: /api/v1/jobs?keyw=manager&salaryMax=5000&salaryMin=0
 HasQuery: true
 Query: {"keyw":"manager","salaryMax":"5000","salaryMin":"0"}
 --------------------------------
+[2026-08-31T11:10:48.833Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-08-31T11:10:49.243Z] QUERY
+Method: GET
+Path: /api/v1/jobs?salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T11:11:00.115Z] QUERY
+Method: GET
+Path: /api/v1/jobs/bc230ecd-5666-49f3-8f10-62c9f265aa0b
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-08-31T11:16:35.747Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-08-31T11:16:36.233Z] QUERY
+Method: GET
+Path: /api/v1/jobs?salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T11:21:19.211Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-08-31T11:21:19.865Z] QUERY
+Method: GET
+Path: /api/v1/jobs?salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:38.789Z] QUERY
+Method: GET
+Path: /api/v1/jobs
+HasQuery: false
+Query: {}
+--------------------------------
+[2026-08-31T15:03:38.987Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:38.986Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=
+HasQuery: true
+Query: {"keyw":""}
+--------------------------------
+[2026-08-31T15:03:42.699Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&location=vilnius&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","location":"vilnius","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:49.241Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&location=kaunas&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","location":"kaunas","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:52.543Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=2145&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"2145","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:54.855Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=1075&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"1075","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:57.113Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=3490&salaryMin=0
+HasQuery: true
+Query: {"keyw":"","salaryMax":"3490","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:03:58.466Z] QUERY
+Method: GET
+Path: /api/v1/jobs?keyw=&salaryMax=3490&salaryMin=1830
+HasQuery: true
+Query: {"keyw":"","salaryMax":"3490","salaryMin":"1830"}
+--------------------------------
+[2026-08-31T15:04:27.870Z] QUERY
+Method: GET
+Path: /api/v1/jobs?salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:31.574Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=it+%2F+technology&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":"it / technology","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:32.725Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=marketing+%2F+reklama&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":"marketing / reklama","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:33.252Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=marketing+%2F+reklama&Kategorija=it+%2F+technology&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":["marketing / reklama","it / technology"],"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:36.469Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=paslaugos&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":"paslaugos","salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:37.201Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=paslaugos&Kategorija=marketing+%2F+reklama&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":["paslaugos","marketing / reklama"],"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:37.661Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=paslaugos&Kategorija=marketing+%2F+reklama&Kategorija=it+%2F+technology&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":["paslaugos","marketing / reklama","it / technology"],"salaryMax":"5000","salaryMin":"0"}
+--------------------------------
+[2026-08-31T15:04:38.483Z] QUERY
+Method: GET
+Path: /api/v1/jobs?Kategorija=paslaugos&Kategorija=marketing+%2F+reklama&Kategorija=it+%2F+technology&Kategorija=finansai+%2F+bankai&salaryMax=5000&salaryMin=0
+HasQuery: true
+Query: {"Kategorija":["paslaugos","marketing / reklama","it / technology","finansai / bankai"],"salaryMax":"5000","salaryMin":"0"}
+--------------------------------

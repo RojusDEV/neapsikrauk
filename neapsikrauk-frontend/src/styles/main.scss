@@ -29,6 +29,12 @@
 @use 'pages/JobPage';
 
 
+#root,
+.app {
+  min-height: 100vh;
+  height: 100%;
+}
+
 #root {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;

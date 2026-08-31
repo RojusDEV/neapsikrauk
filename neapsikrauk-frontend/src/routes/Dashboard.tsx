@@ -11,7 +11,7 @@ import { NavLink, useParams } from "react-router";
 const Dashboard = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   let params = useParams();
-  const [currPage, setCurrPage] = useState(params.page || 1);
+const [currPage, setCurrPage] = useState(params.page || 1);
   console.log(currPage);
   return (
     <div className="dashboard">

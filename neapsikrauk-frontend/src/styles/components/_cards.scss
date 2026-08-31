@@ -5,47 +5,90 @@
 .landing-page__cardsWrapper {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25em;
   margin-top: 3em;
+  align-items: stretch;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin-top: 2em;
+  }
+
   .landing-page__card {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-    padding: 1.5em;
-
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 0.8em;
+    flex: 1;
+    min-height: 220px;
+    padding: 1.5em 1.25em;
     border-radius: variables.$radius-lg;
     box-shadow: variables.$shadow-lg;
-
-    background-color: white;
-    gap: 0.5em;
+    background: #f7f9fc;
+    border: 1px solid rgba(148, 163, 184, 0.15);
     text-align: center;
-    grid-template-columns: subgrid;
-    transition: 150ms ease-in box-shadow;
+    transition: box-shadow 150ms ease-in;
     cursor: pointer;
+
+    &--blue {
+      background: #f5f8ff;
+    }
+
+    &--red {
+      background: #fff6f6;
+    }
+
+    &--green {
+      background: #f4fff8;
+    }
 
     @each $key, $value in variables.$features-btn {
       .features-btn--#{$key} {
-        padding: 1em;
+        display: grid;
+        place-items: center;
+        width: 62px;
+        height: 62px;
+        padding: 0;
+        margin: 0;
+        appearance: none;
         background-color: #{$value};
-        border-radius: variables.$radius-lg;
+        border: none;
+        border-radius: 0.9rem;
+        box-shadow: 0 10px 18px rgba(15, 23, 42, 0.08);
       }
     }
 
     &:hover {
       box-shadow: variables.$shadow-xl;
     }
+
     .landing-page__cardHeading {
-      background-image: linear-gradient(90deg, #5450fb, #7b3bfa);
-      color: transparent;
-      background-clip: text;
-      font-weight: 600;
+      font-weight: 700;
       font-size: variables.$font-size-base;
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+      color: #1f2937;
     }
+
+    &--blue .landing-page__cardHeading {
+      color: #1d4ed8;
+    }
+
+    &--red .landing-page__cardHeading {
+      color: #dc2626;
+    }
+
+    &--green .landing-page__cardHeading {
+      color: #0f9f5f;
+    }
+
     .landing-page__cardSubHeading {
       color: variables.$color-gray-400;
+      line-height: 1.5;
+      max-width: 18ch;
+      margin: 0;
     }
   }
 }
